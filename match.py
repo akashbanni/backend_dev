@@ -46,10 +46,22 @@ for i in range(2,int((num_1/2))+1):
         print("{} is a prime number".format(num_1))
         break
 
-# write a code for factorial using python without using functions
+# factorial 
 factorial=1
 n=int(input("Enter the number of you want to find the factorial:"))
 for i in range(1,n+1):
     factorial = factorial*i
 print("The Factorial of {0} is: {1} ".format(n,factorial))    
-    
+
+# palindrome 
+s=input("Enter a string:")
+rev=""
+temp=s[::-1]
+
+print("The string is: ",s)
+print("The reverse string is:", temp)
+
+if s.lower()==temp.lower():
+    print("The given string is a Palindrome.")
+else:
+    print("The given string is not a Palindrome.")
