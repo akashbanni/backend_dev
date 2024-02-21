@@ -46,3 +46,10 @@ for i in range(2,int((num_1/2))+1):
         print("{} is a prime number".format(num_1))
         break
 
+# write a code for factorial using python without using functions
+factorial=1
+n=int(input("Enter the number of you want to find the factorial:"))
+for i in range(1,n+1):
+    factorial = factorial*i
+print("The Factorial of {0} is: {1} ".format(n,factorial))    
+    
