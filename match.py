@@ -65,3 +65,19 @@ if s.lower()==temp.lower():
     print("The given string is a Palindrome.")
 else:
     print("The given string is not a Palindrome.")
+
+# reverse number
+
+num = int(input("Enter a number : "))
+reverse_num = 0
+check_num = num
+
+while num>0:
+    digit = num%10
+    reverse_num = reverse_num * 10 + digit
+    num = num//10
+
+if check_num == reverse_num:
+    print("Given number is a palindrome number")
+else:
+    print("Given number is not a palindrome number")
