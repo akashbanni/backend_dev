@@ -95,3 +95,17 @@ def largest_num(first_num,second_num,third_num):
         print(f"{third_num} is the largest number")
 
 largest_num(567,342,987)
+
+# printing prime numbers for given range
+
+num = int(input("Enter the starting number of the range :"))
+end = int(input("Enter the ending number of the range :"))
+
+for i in range(num, end+1):
+    if i > 1:
+        for j in range(2,i):
+            if (i % j) == 0:
+                break
+        else:
+            print(i)
+
