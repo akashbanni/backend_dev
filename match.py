@@ -81,3 +81,17 @@ if check_num == reverse_num:
     print("Given number is a palindrome number")
 else:
     print("Given number is not a palindrome number")
+
+
+# biggest of three numbers
+
+def largest_num(first_num,second_num,third_num):
+
+    if first_num > second_num and first_num > third_num:
+        print(f"{first_num} is the largest number")
+    elif  second_num > first_num and second_num > third_num:
+         print(f"{second_num} is the largest number")
+    else:
+        print(f"{third_num} is the largest number")
+
+largest_num(567,342,987)
