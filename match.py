@@ -375,5 +375,18 @@
 # # print("Local v: " , b)
 
 # d11()
- 
+
+# def d2():
+    
+#     x = 20
+#     print("Local variables: ", x)  # Local variables:  20
+#     print("Local variables: ", locals()["x"])   # Local variables:  20
+#     locals()["x"] = 30
+#     print("Local variables: ", locals()["x"])   # Local variables:  20
+     
+# #d2()
+# locals()["x"] = 30
+# print("Local variables: ", locals()["x"])
+# d2()
+
 
