@@ -14,7 +14,7 @@ import pyodbc
 conn =None
 try:
     conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AKASH\SQLEXPRESS2019;'
+                      'Server=AKASH\SQLEXPRESS;'
                       'Database=Personal_database;'
                       )
 
